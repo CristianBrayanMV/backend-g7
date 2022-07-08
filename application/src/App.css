@@ -1,0 +1,36 @@
+div.application{
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+}
+img{
+  width: 50%;
+}
+
+form{
+  padding: 1px 50px;
+  background: white;
+}
+
+form div{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.btn{
+  text-align: center;
+}
+@media screen and (max-width: 1020px){
+  div.application{
+    width: 750px;
+  }
+}
+@media screen and (max-width: 780px){
+  div.application{
+    flex-direction: column;
+    width: 450px;
+  }
+  img{
+    height: 150px;
+    width:450px;
+  }
+}
